@@ -1,0 +1,92 @@
+p {
+  color: red;
+}
+
+  <p>Lorem ippsum</p>
+  
+  .thick {
+    font-weight: bold;
+  }
+  
+<span class="think>I'm thick</span>
+
+.thick {
+  font-weight: bold;
+}
+
+.alert {
+  color: red;
+}
+
+#box {
+  background: blue;
+}
+
+<div id="box">I'm a box</div>
+
+h1, h2, #box {
+  font-family: Arial,
+Helvetica, sans-serif;
+}
+
+<h1>Heading</h1>
+<h2)Subheading</h2>
+<div id="box">I'm a box</div>
+
+#nav li {
+  background: blue;
+}
+
+<ul id="nav">
+  <li>child</li>
+</ul>
+
+#list > li {
+  border: 1px solid black;
+}
+
+<ul id="list">
+  <li>child</li>
+  <li>child
+    <ul>
+      <li>grand child</li>
+    </ul>
+  </li>
+</ul>
+
+h3 + p {
+  colr: green;
+}
+
+<h3>Heading</h3>
+<p>I'm a paragraph that is selected because I come directly after an h3.</p>
+<p>I'm not selected.</p>
+
+h2 ~ p {
+  color: black;
+}
+
+<h2>Sub heading</h2>
+<p>I'm selected because I appear after an h2.</p>
+<p>I'm also selected for the same reason, in fact any paragraphs on the rest of the page after the h2 will be selected.</p>
+
+* {
+  color: orange;
+}
+
+<h>Sub Heading</h5>
+
+img[alt="Cat"] {
+  border: 1px solid black;
+}
+
+<im src="myimage.jpg"
+alt="Cat">
+
+a:link {
+  text-decoration: none;
+}
+
+<a
+href="about.html">About</a>
+
